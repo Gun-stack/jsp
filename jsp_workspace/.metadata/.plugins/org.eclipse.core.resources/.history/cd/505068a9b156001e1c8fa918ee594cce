@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px;
+            border-style: solid;
+            border-color: black;
+            width: 300px;
+            margin: 10px auto;
+        }
+        .top{
+            margin: 10px auto;
+            text-align: center;
+        }
+        .middle{
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+            margin-bottom: 5px;
+            margin: 5px;          
+        }
+        #left{
+            width: 100px;
+            float: left;
+            margin-right: 1px;
+        }
+        #right{
+            width: 150px;
+            float: left;
+        }
+        .bot{
+            width: 280px;
+            margin: 10px;
+            margin-left:35%;
+        }
+    </style>
+</head>
+<body>
+
+<form action="memReg" method="post">
+
+    <h1>회원가입</h1>
+    <div class="container">
+    <div class="middle">
+        <div id="left">회원명 : </div>
+        <div id="right"> <input type="text" name="name"></div>
+    </div>
+    <div class="middle">
+        <div id="left">주소 : </div>
+        <div id="right"> <input type="text"></div>
+    </div>
+    <div class="middle">
+        <div id="left">전화번호 : </div>
+        <div id="right"> <input type="text"></div>
+    </div>
+    <div class="middle">
+        <div id="left">취미 : </div>
+        <div id="right"> <input type="text"></div>
+    </div>
+    <div class="bot"><input type="submit" value="회원가입"></div>
+</form>
+</body>
+</html>

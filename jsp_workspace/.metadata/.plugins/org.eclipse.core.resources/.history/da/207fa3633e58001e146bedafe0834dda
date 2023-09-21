@@ -1,0 +1,15 @@
+package dto;
+
+public class Member {
+	private String id;
+	private String name;
+	private String password;
+	private String email;
+	private String address;
+
+	private void Member() {
+
+	}
+	public Member(String id,String name,String password,String email,String address) {
+	}
+}

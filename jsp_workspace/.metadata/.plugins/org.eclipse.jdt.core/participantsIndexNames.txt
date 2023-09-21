@@ -1,0 +1,21 @@
+INDEX VERSION 1.131
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2692963168.index
+\BankProj\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\979803808.index
+\jspExam\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3057602405.index
+\jspExam5\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\11509536.index
+\jspExam\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\279521538.index
+\hello\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3996145768.index
+\BankProj\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3300090624.index
+\hello\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1623906862.index
+\jspExam5\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3294687160.index
+\hello\src\main\java
+C:\kkw\jsp_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1801901034.index
+\BankProj\src\main\java
