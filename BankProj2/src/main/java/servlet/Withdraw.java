@@ -41,9 +41,20 @@ public class Withdraw extends HttpServlet {
 		
 		
 		if (acc!=null) {
-			acc.withdraw(money);
-			request.setAttribute("acc", acc);
-			dispatcher = request.getRequestDispatcher("accountinfo.jsp");
+			if (money>acc.getBalance()) {
+				request.setAttribute("err","잔액이 부족합니다");
+				dispatcher = request.getRequestDispatcher("error.jsp");
+			}else if(money<=0){
+				request.setAttribute("err","금액을 다시 입력하세요");
+				dispatcher = request.getRequestDispatcher("error.jsp");
+			}else {
+				acc.withdraw(money);
+				request.setAttribute("acc", acc);
+				dispatcher = request.getRequestDispatcher("accountinfo.jsp");
+				
+				}
+			
+			
 		}else {
 			request.setAttribute("err","계좌번호가 틀립니다");
 			dispatcher = request.getRequestDispatcher("error.jsp");
